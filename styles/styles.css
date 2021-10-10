@@ -1,13 +1,17 @@
+body {
+    background: #d9d9d9;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #262626;/*very black*/
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #f2f2f2;/*kinda grey*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,4 +28,20 @@
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+
+footer {
+  background-color: #262626;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-column {
+  padding: 14px 16px;
+  width: 20%;
+  float: left;
 }
